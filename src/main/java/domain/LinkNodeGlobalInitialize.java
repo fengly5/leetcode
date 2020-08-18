@@ -1,6 +1,6 @@
 package domain;
 
-public class GlobalInitialize {
+public class LinkNodeGlobalInitialize {
 
     public static ListNode initNodes() {
         ListNode listNode = new ListNode(5);

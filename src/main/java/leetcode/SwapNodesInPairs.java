@@ -1,6 +1,7 @@
 package leetcode;
 
-import domain.GlobalInitialize;
+import domain.LinkNodeGlobalInitialize;
+import domain.LinkNodeGlobalInitialize;
 import domain.ListNode;
 
 public class SwapNodesInPairs {
@@ -45,8 +46,8 @@ public class SwapNodesInPairs {
     }
 
     public static void main(String[] args) {
-        ListNode listNode = GlobalInitialize.initNodes();
+        ListNode listNode = LinkNodeGlobalInitialize.initNodes();
         ListNode reverse = swapPairsSecond(listNode);
-        GlobalInitialize.print(reverse);
+        LinkNodeGlobalInitialize.print(reverse);
     }
 }

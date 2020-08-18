@@ -1,6 +1,7 @@
 package leetcode;
 
-import domain.GlobalInitialize;
+import domain.LinkNodeGlobalInitialize;
+import domain.LinkNodeGlobalInitialize;
 import domain.ListNode;
 
 import java.util.HashSet;
@@ -53,9 +54,9 @@ public class linkedListCycle {
 
 
     public static void main(String[] args) {
-        ListNode initNodes = GlobalInitialize.initNodes();
-        ListNode twoNodes = GlobalInitialize.initTwoNodes();
-        ListNode oneNodes = GlobalInitialize.initOneNodes();
+        ListNode initNodes = LinkNodeGlobalInitialize.initNodes();
+        ListNode twoNodes = LinkNodeGlobalInitialize.initTwoNodes();
+        ListNode oneNodes = LinkNodeGlobalInitialize.initOneNodes();
         System.out.println(hasCycleFirst(initNodes));
         System.out.println(hasCycleFirst(twoNodes));
         System.out.println(hasCycleFirst(oneNodes));

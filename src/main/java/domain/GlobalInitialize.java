@@ -16,6 +16,25 @@ public class GlobalInitialize {
         return listNode;
     }
 
+    public static ListNode initTwoNodes() {
+        ListNode listNode = new ListNode(5);
+        ListNode list1 = new ListNode(1);
+
+        listNode.next = list1;
+        print(listNode, true);
+        return listNode;
+    }
+
+    public static ListNode initOneNodes() {
+        ListNode listNode = new ListNode(1);
+        return listNode;
+    }
+
+    public static ListNode initZreoNodes() {
+        ListNode listNode = null;
+        return listNode;
+    }
+
     public static void print(ListNode listNode) {
         print(listNode, false);
     }

@@ -33,6 +33,7 @@ public class ValidParentheses {
             put('\'', '\'');
             put('\"', '\"');
             put('>', '<');
+            put(')', '(');
         }};
         for (char c : s.toCharArray()) {
             if (charMap.containsKey(c)) {

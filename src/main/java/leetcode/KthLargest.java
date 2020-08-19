@@ -11,8 +11,8 @@ import java.util.PriorityQueue;
  */
 public class KthLargest {
 
-    PriorityQueue<Integer> priorityQueue;
-    int k;
+    final PriorityQueue<Integer> priorityQueue;
+    final int k;
 
     public KthLargest(int k, int[] nums) {
         this.k = k;

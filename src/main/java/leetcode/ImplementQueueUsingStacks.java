@@ -26,7 +26,7 @@ public class ImplementQueueUsingStacks {
      */
     public int pop() {
         if (outStack.isEmpty()) {
-            while (!inStack.isEmpty()) {
+            while (!inStack.isEmpty()) {//不要使用循环，循环的方式是顺序取出数据的
                 outStack.push(inStack.pop());
             }
         }

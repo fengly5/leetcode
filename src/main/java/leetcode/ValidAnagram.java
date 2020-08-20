@@ -76,6 +76,7 @@ public class ValidAnagram {
         }
         return true;
     }
+    //还有一种办法，对字符串进行排序后进行比较
 
     public static void main(String[] args) {
         String s = "ccaa";
